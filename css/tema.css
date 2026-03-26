@@ -2064,15 +2064,16 @@ section.video-gallery .inner .video-outer .video-inner > .title > p {
 .wedding-gift-bank-wrap .bank-item {
     padding: 0px;
     align-items: flex-start;
-    display: none;
-}
-.wedding-gift-bank-wrap .bank-item.show {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     padding: 16px;
     border-radius: 16px;
     background-color: var(--background-secondary);
+    margin-top: 60px;
+}
+.wedding-gift-bank-wrap .bank-item.show {
+
 }
 /* Bank Detail */
 .wedding-gift-bank-wrap .bank-detail {
